@@ -15,6 +15,10 @@
 - Modified handling of aborted/errored assistant messages to preserve tool call structure instead of converting to text summaries, with synthetic 'aborted' tool results injected
 - Updated tool call tracking to use status map (Resolved/Aborted) instead of separate sets for better handling of duplicate and aborted tool results
 
+### Fixed
+
+- Fixed GitHub Copilot gpt-5.3-codex model metadata to enable reasoning/tool calls and align its context window with gpt-5.2-codex
+
 ## [12.15.0] - 2026-02-20
 ### Fixed
 
